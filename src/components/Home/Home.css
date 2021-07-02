@@ -1,3 +1,82 @@
-body{
+
+
+.home-component {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: auto;
+    padding: 100px 10%;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+.header-text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.header-text > p {
     font-family: 'Abril Fatface', cursive;
+    font-style: normal;
+    font-size: 4em;
+    line-height: 50px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #fff;
+    margin: 10px;
+}
+.header-text > p:nth-child(2) {
+    font-family: 'Pacifico', cursive;
+    font-style: normal;
+    font-size: 40px;
+    line-height: 30px;
+    color: #FF1493;
+    margin: 50px;
+}
+
+.head-btns {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 35px 10px;
+}
+
+.btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid #FF1493;
+    box-sizing: border-box;
+    color: #fff;
+    padding: 0px 36px;
+    width: 200px;
+    height: 80px;
+    left: 0;
+    top: 0px;
+    text-decoration: none;
+    box-shadow: 0px 4px 31px #FF1493(0, 0, 0, 0.15);
+    margin: 4px;
+}
+
+.btn-text {
+    font-family: 'Abril Fatface', cursive;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0.2px;
+    text-align: center;
+}
+
+/* For small height screen sizes */
+@media only screen and (max-height: 550px) {
+
+}
+
+/* For small width screens */
+@media only screen and (max-width: 640px) {
+    .head-btns {
+        margin: 10px 10px 35px 10px;
+    }
 }
