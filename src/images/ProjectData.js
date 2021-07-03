@@ -26,4 +26,31 @@ export const projectsData = [
             'https://youtu.be/wokfPWSoLrE',
         projectUrl: 'https://helpinghandso.herokuapp.com/',
     },
+    {
+        projectName: 'Shinobi-Info-Card',
+        projectDescription:
+            'The user of this application can search for a particular shinobi and get to know information like his/her:Rank clan Special Jitsu',
+        imageUrl: 'https://raw.githubusercontent.com/anishashruti/Shinobi-Info-Cards/main/welcome.PNG',
+        videoUrl:
+            'https://www.youtube.com/watch?v=19rptXDnjxU',
+        projectUrl: 'https://anishashruti.github.io/Shinobi-Info-Cards/',
+    },
+    {
+        projectName: 'Typing Test',
+        projectDescription:
+            'Anyone can test their typing skills by undergoing this simple test.Well the test is just 1 min long and all you have to do is type the paragraph that is in the left',
+        imageUrl: 'https://github.com/anishashruti/Type-Test/blob/main/images/TypeTest1.PNG',
+        videoUrl:
+            'https://www.youtube.com/watch?v=e9A4-PLOiZY',
+        projectUrl: 'http://anishashruti.github.io/Type-Test/',
+    },
+    {
+        projectName: 'Movie Buff',
+        projectDescription:
+            "Are you a Movie buff? Yes? then test your knowledge witha a game that we used to play in school days!",
+        imageUrl: 'https://user-images.githubusercontent.com/62645229/124361237-a8591380-dc4b-11eb-8158-bb70916ccf4b.PNG',
+        videoUrl:
+            '-',
+        projectUrl: 'https://anishashruti.github.io/moviebuff_game/',
+    },
 ];
