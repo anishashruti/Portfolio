@@ -7,6 +7,7 @@ body {
     background-color: #161616;
     overflow-x: hidden;
     color:white;
+    transition: background-color .5s;
 }
 input:focus,
 textarea:focus,
@@ -16,7 +17,7 @@ select:focus {
 
 .content{
     box-sizing: border-box;
-    min-height: 100vh;
+    min-height: 90vh;
     position: relative;
     padding: 50px 0;
     display: flex;
@@ -27,6 +28,9 @@ select:focus {
 
 }
 
+::-webkit-scrollbar {
+    display: none;
+  }
 /* For the small width screens */
 @media only screen and (max-width: 640px) {
     .content

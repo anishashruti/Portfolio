@@ -1,12 +1,40 @@
 import React from 'react';
+import Header from '../Header/Header';
+import { projectsData } from './../../images/ProjectData';
+import ProjectCard from './ProjectCard';
+import './Projects.css';
 
-
-const Project = props => {
+const Projects = () => {
     return (
-        <div className="content">
-             <h1>Projects Page</h1> 
+        <div className='section-container'>
+            <Header
+                heading='My Projects.'
+            
+            />
+
+            <div className='project-cards-container'>
+                {projectsData.map(
+                    ({
+                        projectName,
+                        projectDescription,
+                        imageUrl,
+                        videoUrl,
+                        projectUrl,
+                    }) => {
+                        return (
+                            <ProjectCard
+                                projectName={projectName}
+                                projectDescription={projectDescription}
+                                projectUrl={projectUrl}
+                                imageUrl={imageUrl}
+                                videoUrl={videoUrl}
+                            />
+                        );
+                    }
+                )}
+            </div>
         </div>
     );
 };
 
-export default Project;
+export default Projects;

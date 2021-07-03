@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from '../Header/Header';
+
 import about from "./../../images/about-page.gif"
 import "./About.css"
 const About = props => {
