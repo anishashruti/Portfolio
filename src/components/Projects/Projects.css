@@ -48,8 +48,8 @@
 }
 
 .project-yt-link {
-    font-weight: 600;
     color: #4089ed;
+    text-decoration: none;
 }
 
 .project-heading {

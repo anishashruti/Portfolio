@@ -52,7 +52,7 @@ input[type=email], select, textarea {
     border-color: white;
     border-left-color: #FF1493;
   }
-  @media only screen and (max-width: 360px) {
+  @media only screen and (min-width: 411px) {
     .sub{
         font-size: 22px;
     }

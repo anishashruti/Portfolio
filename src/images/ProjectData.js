@@ -36,10 +36,10 @@ export const projectsData = [
         projectUrl: 'https://anishashruti.github.io/Shinobi-Info-Cards/',
     },
     {
-        projectName: 'Typing Test',
+        projectName: 'Type Test',
         projectDescription:
             'Anyone can test their typing skills by undergoing this simple test.Well the test is just 1 min long and all you have to do is type the paragraph that is in the left',
-        imageUrl: 'https://github.com/anishashruti/Type-Test/blob/main/images/TypeTest1.PNG',
+        imageUrl: 'https://raw.githubusercontent.com/anishashruti/Type-Test/main/images/TypeTest1.PNG',
         videoUrl:
             'https://www.youtube.com/watch?v=e9A4-PLOiZY',
         projectUrl: 'http://anishashruti.github.io/Type-Test/',
