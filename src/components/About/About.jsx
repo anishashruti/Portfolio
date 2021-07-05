@@ -11,10 +11,12 @@ const About = props => {
             />
             <div className="about-content">
                 <div className="about-left">
-                He heard the crack echo in the late afternoon about a mile away. His heart started racing and he bolted into a full sprint. 
+                    I’m a Web Developer from India.<br></br>
+                    I have a great passion for webdevelopment.
+                    Apart from these I love to Sketch,Paint,Bake and make DIY's Art&Crafts from waste.
                     <br></br>
                     <br></br>
-                There are only three ways to make this work. The first is to let me take care of everything. The second is for you to take care of everything. The third is to split everything 50 / 50. 
+                It's my ambition to create a well scallable websites with high clarity and availability for users.
                 </div>
                 <div className="about-right">
                 <img className="Image-about" src={about} alt="about-anisha"></img>

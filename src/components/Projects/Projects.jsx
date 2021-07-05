@@ -6,7 +6,7 @@ import './Projects.css';
 
 const Projects = () => {
     return (
-        <div className='section-container'>
+        <div className='content'>
             <Header
                 heading='My Projects.'
             

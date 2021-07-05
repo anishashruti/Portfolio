@@ -9,12 +9,12 @@ const Contact = props => {
             />
             <p className="sub">Feel free to drop an E-mail</p>
             <div className="Form" >
-                    <form className="pageclip-form" action="https://send.pageclip.co/snuvftpkeaWmcOyISybpXcTorbBAK9F9/contact-me" method="post">
+                    <form class="pageclip-form" action="https://send.pageclip.co/snuvftpkeaWmcOyISybpXcTorbBAK9F9/contact-me" method="post">
                     <input
                         type='email'
                         placeholder='Your Email ID'
                         name='email'
-                        className='input-box email-input'
+                        class='input-box email-input'
                         autoComplete='off'
                     />
 
@@ -23,17 +23,16 @@ const Contact = props => {
                         type='text'
                         placeholder='Your Message'
                         name='message'
-                        className='input-box body-input'
+                        class='input-box body-input'
                     ></textarea>
 
                     {/* Submit button */}
-                    <button type='submit' className='contact-btn pageclip-form__submit'>
+                    <button type='submit' class='contact-btn pageclip-form__submit'>
                         Send Email
                     </button>
                     </form>
 
             </div>
-        
         </div>
     );
 };
