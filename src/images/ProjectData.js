@@ -27,6 +27,15 @@ export const projectsData = [
         projectUrl: 'https://helpinghandso.herokuapp.com/',
     },
     {
+        projectName: 'Bookworm',
+        projectDescription:
+            "Are you a Bookworm! Then is is the right place for you to view different books and add review to them.",
+        imageUrl: 'https://user-images.githubusercontent.com/62645229/124765804-f9bb1880-df53-11eb-80c6-c0231eb66d67.PNG',
+        videoUrl:
+            'https://www.youtube.com/watch?v=sVX8YiNMEEc',
+        projectUrl: '-',
+    },
+    {
         projectName: 'Shinobi-Info-Card',
         projectDescription:
             'The user of this application can search for a particular shinobi and get to know information like his/her:Rank clan Special Jitsu',
