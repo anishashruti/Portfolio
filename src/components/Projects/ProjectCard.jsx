@@ -7,6 +7,7 @@ const ProjectCard = ({
     imageUrl,
     videoUrl,
     projectUrl,
+    codeURl
 }) => {
     return (
         <div className='project-card'>
@@ -21,8 +22,11 @@ const ProjectCard = ({
             </div>
 
             <div className='project-details-container'>
-                <h2 className='project-heading'>{projectName}</h2>
+                <p className='project-heading'>{projectName}</p>
                 <p className='project-details'>{projectDescription}</p>
+                <a href={codeURl} className='project-code-link'>
+                    Code in Github
+                </a>
                 <a href={videoUrl} className='project-yt-link'>
                     Watch More!
                 </a>

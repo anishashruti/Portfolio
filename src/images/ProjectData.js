@@ -7,6 +7,7 @@ export const projectsData = [
         videoUrl:
             'https://www.youtube.com/watch?v=19rptXDnjxU',
         projectUrl: 'https://anishanetwork.herokuapp.com/',
+        codeURl: 'https://github.com/anishashruti/Network'
     },
     {
         projectName: 'Wikimedia',
@@ -15,7 +16,8 @@ export const projectsData = [
         imageUrl: 'https://user-images.githubusercontent.com/62645229/124360525-0683f780-dc48-11eb-894d-88814d2987be.PNG',
         videoUrl:
             'https://www.youtube.com/watch?v=e9A4-PLOiZY',
-        projectUrl: '-',
+        projectUrl: 'https://github.com/anishashruti/Wikimedia',
+        codeURl: 'https://github.com/anishashruti/Wikimedia'
     },
     {
         projectName: 'Helping Hands',
@@ -25,6 +27,7 @@ export const projectsData = [
         videoUrl:
             'https://youtu.be/wokfPWSoLrE',
         projectUrl: 'https://helpinghandso.herokuapp.com/',
+        codeURl: 'https://github.com/anishashruti/Helping-Hands'
     },
     {
         projectName: 'Bookworm',
@@ -33,7 +36,8 @@ export const projectsData = [
         imageUrl: 'https://user-images.githubusercontent.com/62645229/124765804-f9bb1880-df53-11eb-80c6-c0231eb66d67.PNG',
         videoUrl:
             'https://www.youtube.com/watch?v=sVX8YiNMEEc',
-        projectUrl: '-',
+        projectUrl: 'https://github.com/anishashruti/Bookworm',
+        codeURl: 'https://github.com/anishashruti/Bookworm'
     },
     {
         projectName: 'Shinobi-Info-Card',
@@ -43,6 +47,7 @@ export const projectsData = [
         videoUrl:
             'https://www.youtube.com/watch?v=19rptXDnjxU',
         projectUrl: 'https://anishashruti.github.io/Shinobi-Info-Cards/',
+        codeURl: 'https://github.com/anishashruti/Shinobi-Info-Cards'
     },
     {
         projectName: 'Type Test',
@@ -52,6 +57,7 @@ export const projectsData = [
         videoUrl:
             'https://www.youtube.com/watch?v=e9A4-PLOiZY',
         projectUrl: 'http://anishashruti.github.io/Type-Test/',
+        codeURl: 'https://github.com/anishashruti/Type-Test'
     },
     {
         projectName: 'Movie Buff',
@@ -61,5 +67,6 @@ export const projectsData = [
         videoUrl:
             '-',
         projectUrl: 'https://anishashruti.github.io/moviebuff_game/',
+        codeURl: 'https://github.com/anishashruti/moviebuff_game'
     },
 ];

@@ -7,7 +7,7 @@ const About = props => {
     return (
         <div className="content">
             <Header
-                heading='My,Myself & I'
+                heading='Me, Myself & I'
             />
             <div className="about-content">
                 <div className="about-left">

@@ -13,7 +13,6 @@ import GoHome from '../GoHome/GoHome';
 const App = () => {
     return (
         <div>
-
             <HashRouter>
             <NavBar />
                 <div>
