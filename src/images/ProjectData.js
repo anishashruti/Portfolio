@@ -2,7 +2,7 @@ export const projectsData = [
     {
         projectName: 'Network',
         projectDescription:
-            'This is an Django application that lets the users to create a blog post and share with all othere network users and can gan likes and followers.',
+            'This is a Django application that lets the users to create a blog post and share with all other network users and can gan likes and followers.',
         imageUrl: 'https://raw.githubusercontent.com/anishashruti/Network/main/ss/welcome.PNG',
         videoUrl:
             'https://www.youtube.com/watch?v=19rptXDnjxU',
@@ -16,13 +16,13 @@ export const projectsData = [
         imageUrl: 'https://user-images.githubusercontent.com/62645229/124360525-0683f780-dc48-11eb-894d-88814d2987be.PNG',
         videoUrl:
             'https://www.youtube.com/watch?v=e9A4-PLOiZY',
-        projectUrl: 'https://github.com/anishashruti/Wikimedia',
+        projectUrl: 'https://wikimedia0.herokuapp.com/',
         codeURl: 'https://github.com/anishashruti/Wikimedia'
     },
     {
         projectName: 'Helping Hands',
         projectDescription:
-            "A donation application using django with payment gateway integration. I have used Stripe API as a payment gateway",
+            "A donation application built using django with 3rd party payment gateway integration(Stripe).",
         imageUrl: 'https://raw.githubusercontent.com/anishashruti/Helping-Hands/main/HelpingHands/home.PNG',
         videoUrl:
             'https://youtu.be/wokfPWSoLrE',
@@ -40,9 +40,29 @@ export const projectsData = [
         codeURl: 'https://github.com/anishashruti/Bookworm'
     },
     {
+        projectName: 'Pinacchio Pizza Shop',
+        projectDescription:
+            "A Django application of a food ordering system, where customers can make their order and owner can view the placed order",
+        imageUrl: 'https://user-images.githubusercontent.com/62645229/124361237-a8591380-dc4b-11eb-8158-bb70916ccf4b.PNG',
+        videoUrl:
+            '-',
+        projectUrl: 'https://anishashruti.github.io/moviebuff_game/',
+        codeURl: 'https://github.com/anishashruti/moviebuff_game'
+    },
+    {
+        projectName: 'Blogs Api',
+        projectDescription:
+            "A Flask Application that implements various data structure to satisy reques made to this API",
+        imageUrl: 'https://user-images.githubusercontent.com/62645229/124361237-a8591380-dc4b-11eb-8158-bb70916ccf4b.PNG',
+        videoUrl:
+            '-',
+        projectUrl: 'https://anishashruti.github.io/moviebuff_game/',
+        codeURl: 'https://github.com/anishashruti/moviebuff_game'
+    },
+    {
         projectName: 'Shinobi-Info-Card',
         projectDescription:
-            'The user of this application can search for a particular shinobi and get to know information like his/her:Rank clan Special Jitsu',
+            'A Reactjs application which can search for a particular shinobi and get to know about their information ( his/her:Rank clan Special Jitsu)',
         imageUrl: 'https://raw.githubusercontent.com/anishashruti/Shinobi-Info-Cards/main/welcome.PNG',
         videoUrl:
             'https://www.youtube.com/watch?v=19rptXDnjxU',

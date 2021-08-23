@@ -1,36 +1,56 @@
 .project-cards-container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
-    padding: 44px;
-    align-self: center;
-    justify-content: center;
+    padding: 45px;
+    flex-grow: 2;
 }
 
 .project-card {
-    width:80%;
-    min-height: 65%;
-    background: #161616;
-    box-shadow: 9px 10px 12px #FF1493;;
+    width:35%;
+    min-height: 50%;
+    background: white;
     border-radius: 20px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     margin-left: 10%;
     margin-bottom: 5%;
-    padding-top:3%;
+    padding-top:1%;
     padding-bottom:2%;
     padding-left: 1%;
+    padding-right: 1%;
 }
 
 .project-card:hover {
-    box-shadow: 0px 40px 50px#FF1493;
+    box-shadow:0px 10px 10px grey;
     transition: all 0.3s;
 }
-
-.image-container {
-    width: 80%;
+.infos{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
 }
+.twologo{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+.logos-div{
+    width:50px;
+    height:50px;
+    border-radius: 30px;
+    background-color: black;
+}
+#codelogo{
+    width:50px;
+    height:50px;
+    border-radius: 30px;
+}
+.image-container {
+    width: 500px;
+    height: auto;
 
+}
 .project-external-link {
     border-radius: inherit;
 }
@@ -40,6 +60,8 @@
     border-radius: inherit;
     max-height: 100%;
     max-width: 100%;
+    border : 1px solid black;
+    border-radius: 10px;
 }
 
 .project-details-container {
@@ -51,22 +73,11 @@
     padding: 20px;
 }
 
-.project-yt-link{
-    text-decoration: none;
-    margin-bottom: 12px;
-    font-size: 20px;
-    color:rgb(196, 51, 209);
-}
-.project-code-link {
-    text-decoration: none;
-    margin-bottom: 12px;
-    font-size: 20px;
-    color:rgb(196, 51, 209);
-}
 .project-heading {
     margin: 0;
     font-family: 'Abril Fatface';
     font-size:40px;
+    color:#161616;
 }
 
 .project-details {
