@@ -43,21 +43,21 @@ export const projectsData = [
         projectName: 'Pinacchio Pizza Shop',
         projectDescription:
             "A Django application of a food ordering system, where customers can make their order and owner can view the placed order",
-        imageUrl: 'https://user-images.githubusercontent.com/62645229/124361237-a8591380-dc4b-11eb-8158-bb70916ccf4b.PNG',
+        imageUrl: 'https://raw.githubusercontent.com/anishashruti/Pinocchio-s-Pizza/main/home.PNG',
         videoUrl:
-            '-',
-        projectUrl: 'https://anishashruti.github.io/moviebuff_game/',
-        codeURl: 'https://github.com/anishashruti/moviebuff_game'
+            'https://www.youtube.com/watch?v=cVWJ-eRM9co',
+        projectUrl: 'https://github.com/anishashruti/Pinocchio-s-Pizza',
+        codeURl: 'https://github.com/anishashruti/Pinocchio-s-Pizza'
     },
     {
         projectName: 'Blogs Api',
         projectDescription:
             "A Flask Application that implements various data structure to satisy reques made to this API",
-        imageUrl: 'https://user-images.githubusercontent.com/62645229/124361237-a8591380-dc4b-11eb-8158-bb70916ccf4b.PNG',
+        imageUrl: 'https://quintagroup.com/services/service-images/api.jpg',
         videoUrl:
             '-',
-        projectUrl: 'https://anishashruti.github.io/moviebuff_game/',
-        codeURl: 'https://github.com/anishashruti/moviebuff_game'
+        projectUrl: 'https://github.com/anishashruti/BlogPostAPI',
+        codeURl: 'https://github.com/anishashruti/BlogPostAPI'
     },
     {
         projectName: 'Shinobi-Info-Card',
