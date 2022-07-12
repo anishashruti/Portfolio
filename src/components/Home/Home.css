@@ -9,7 +9,13 @@
     min-height: 100vh;
     box-sizing: border-box;
 }
-
+.buttons{
+    display: flex;
+  flex-direction: row;
+  align-items:center;
+  column-gap: 20px;
+  
+}
 .header-text {
     display: flex;
     flex-direction: column;
@@ -94,5 +100,8 @@
 @media only screen and (max-width: 640px) {
     .head-btns {
         margin: 10px 10px 35px 10px;
+    }
+    .buttons{
+        flex-direction: column;
     }
 }
